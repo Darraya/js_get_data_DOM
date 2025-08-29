@@ -1,7 +1,6 @@
 'use strict';
 
-const populationSpans = document.querySelectorAll('span.withpopulation');
-
+const populationSpans = document.querySelectorAll('span.population');
 let total = 0;
 let count = 0;
 
