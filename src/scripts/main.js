@@ -14,7 +14,7 @@ populationSpans.forEach((span) => {
   }
 });
 
-const average = count > 0 ? total / count : 0;
+const averages = count > 0 ? total / count : 0;
 
 const formatter = new Intl.NumberFormat('en-US');
 
@@ -22,4 +22,4 @@ document.querySelector('span.total-population').textContent =
   formatter.format(total);
 
 document.querySelector('span.average-population').textContent =
-  formatter.format(Math.round(average));
+  formatter.format(Math.round(averages));
